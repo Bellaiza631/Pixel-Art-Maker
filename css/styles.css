@@ -1,0 +1,87 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Rye', cursive;
+    font-size: 4.5em;
+    margin: 0.2em;
+    color: #FF8A65;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    font-size: 2em;
+    color: #FF8F00;
+
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 22px;
+}
+
+td {
+    width: 22px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+input{
+  height: 22px;
+  text-align: center;
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #FF8A65;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px 10px;
+  font-weight: bold;
+  height: auto;
+  margin-left: 15px;
+  color: #fff;
+}
+
+#sizePicker{
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #FFC107;
+}
+
+@media screen and (max-width: 837px) {
+  h1{font-size: 3.5em;}
+}
+
+@media screen and (max-width: 685px) {
+  h1{font-size: 2.5em;}
+}
+
+@media screen and (max-width: 590px) {
+  #input_height{order: 0; width: 100%; margin-top: 10px;}
+  #input_width{order: 1; width: 100%; margin-top: 10px;}
+  button{order: 2; margin-top: 10px;}
+}
+
+@media screen and (max-width: 465px) {
+  h1{font-size: 2em;}
+  h2{font-size: 1.5em;}
+}
